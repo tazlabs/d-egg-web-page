@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+.main_container {
+    width: 100%;
+    max-width: 1679px;
+    padding: 160px 100px;
+    margin: auto;
+}
+.logo {
+ width: 100%;
+ max-width: 149px;
+ height: 93px; 
+ display: flex;  
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.header-navbar .header_nav .header_link {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */    
+    display: flex;
+    align-items: center;    
+    color: #595959; 
+}
+.header-navbar .header_nav .header_link.active, .header-navbar .header_nav .header_link:active {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    display: flex;
+    align-items: center;
+    color: #252D39;
+    border-bottom: 2px solid #252D39;
+} 
+.right_header_nav {
+    width: 100%;
+    max-width: 300px;
+}
+.header_item {
+    width: 100%;
+    max-width: 130px;
+}
+.header_btn {
+    width: 100%;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #252D39;
+    border-radius: 6px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #252D39;
+    text-decoration: none;
+}
+.filled_link {
+    background: #252D39;
+    color: #FFFFFF; 
+}
+.page_title {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */  
+    text-align: center;    
+   
+}
+.page_text {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.beige_bg {
+    background-color: #F5F5F5;
+    min-height: 100vh;
+    padding: 150px 0;
+}
+.custom_card { 
+    width: 100%;
+    max-width: 357px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+.card_icon {
+    width: 70px;
+    height: 70px;
+}
+.card_icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_title {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    /* identical to box height, or 164% */
+    color: #323335;
+
+}
+.card_text {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #595959;
+    height: 100px;
+    width: 100%;
+    max-width: 583px;
+}
+.rightside {
+    width: 100%;
+    max-width: 965px;
+    height: 550px;
+}
+.rightside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.leftside {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 965px;
+    height: 550px;
+}
+.document_card {
+    padding: 12px 30px;
+    width: 100%;
+    max-width: 680px;
+    min-height: 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+.download {
+    border: none;
+    background: none;
+    width: 24px;
+    height: 24px;
+}
+.download img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.form_label {
+    font-family: 'Open sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+.form_input {
+    width: 100%;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 6px;
+}
+.form_input::placeholder {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #9B9B9B;
+}
+.form_input:focus {
+    outline: none;
+    box-shadow: none;
+    border: rgba(255, 255, 255, 0.88);;
+}
+.form_btn {
+    width: 100%;
+    height: 46px;
+    background: #252D39;
+    border-radius: 6px;  
+    border: none;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    text-align: center;
+    color: #FFFFFF;
+}
+.form_textarea {
+    height: 92px;
+}
+.statics_section {
+   background-color: #FFFFFF; 
+}
+.statics_section_container {
+    gap: 150px;
+}
+.static_box {
+    width: 100%;
+    max-width: 358px;
+}
+.static_number {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 93px;
+    /* identical to box height */    
+    text-align: center;    
+    color: #8794A1 
+}
+footer {
+    width: 100%;
+    min-height: 463px;
+    background: #000A29;
+}
+/* footer */
+.footer_container {
+    width: 100%;
+    max-width: 850px;
+}
+.footer_title {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */   
+    color: #FFFFFF;      
+}
+.footer_link a{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.hr {
+    color: rgba(255, 255, 255);
+    margin: 150px 0 0;
+}
+.copyright {
+    font-family: 'Open sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */    
+    color: rgba(255, 255, 255, 0.8); 
+}
+.social_icon_box {
+    width: 100%;
+    max-width: 940px;
+}
+.social_icon {
+    width: 100%;
+    max-width: 54px;
+    height: 54px;
+}
+.social_icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* global style */
+.white_title,
+.white_text  {
+    color: #FFFFFF;  
+}
+.font_size30 {
+    font-size: 30px;
+}

@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#particles-js {
+    background:#011222 url('../image/BG.png') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+#particles-js1 {
+    background:url('../image/bg_footer.png') no-repeat;
+    /* background-size: 100% 70%; */
+    position: relative;
+    background-size: 100% 100%;
+}
+.count-particles {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    max-width: 820px;
+}
+.count-particles_footer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    max-width: 1100px;
+}
+.particle_leftside {
+    width: 100%;
+    max-width: 570px;
+    margin-right: 150px;
+}
+.particle_rightside {
+    width: 100%;
+    max-width: 440px;
+}
